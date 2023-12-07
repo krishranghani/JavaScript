@@ -28,7 +28,7 @@
 
 */
 
-let data="Java script is the wold`s most popular programming language.";
+// let data="Javascript is the world`s most popular programming language.";
 
 // 1.-> String lenth
 // console.log(data.length);           //  60
@@ -36,14 +36,14 @@ let data="Java script is the wold`s most popular programming language.";
 // 2. -> slice()     
 
 // console.log(data.slice(5,12));               //  cript i 
-// console.log(data.slice(25));                //  most popular programming language.
-// console.log(data.slice(-12,-3));            //  ng langua
+// console.log(data.slice(25));                 //  most popular programming language.
+// console.log(data.slice(-12,-3));             //  ng langua
 
 
 // 3. -> substring() 
-// console.log(data.substring(5,12));              //  cript i 
+// console.log(data.substring(5,12));             //  cript i 
 // console.log(data.substring(25));               //  most popular programming language.
-// console.log(data.substring(-12));              //  Java script is the wold`s most popular programming language.
+// console.log(data.substring(-12));              //  Java script is the world`s most popular programming language.
 // console.log(data.substring(-12,-5));           // counting to 0
 
 
@@ -55,12 +55,12 @@ let data="Java script is the wold`s most popular programming language.";
 
 // 5. ->  UpperCase() 
 
-// console.log(data.toUpperCase());   //  JAVA SCRIPT IS THE WOLD`S MOST POPULAR PROGRAMMING LANGUAGE.
+// console.log(data.toUpperCase());   //  JAVA SCRIPT IS THE WORLD`S MOST POPULAR PROGRAMMING LANGUAGE.
 
 
 // 6. -> LowerCase() 
 
-// console.log(data.toLowerCase());   //  java script is the wold`s most popular programming language.
+// console.log(data.toLowerCase());   //  java script is the world`s most popular programming language.
 
 
 //  7. -> charAt()
@@ -75,4 +75,49 @@ let data="Java script is the wold`s most popular programming language.";
 
 // 9. -> concat() 
 
-// console.log(data.concat("Vijay","Dankhara"));  // joint this word backSide Vijay Dankhara
+// console.log(data.concat("krish","ranghani"));  // Javascript is the world`s most popular programming language.krishranghani
+
+// let data="Java script is the world`s most popular programming language.world";
+
+// 10. -> replace()
+// console.log(data.replace("world","surat")); 
+
+
+// 11. -> replaceAll()
+// console.log(data.replaceAll("world","surat")); 
+
+
+// 12. -> trim() 
+// let txt="      krish ranghani        "
+// console.log(txt);
+// console.log(txt.trim());     // remove space
+// console.log("Lenth is :- "+(txt.trim()).length);
+
+// 13.  -> trimStart() 
+// let txt="      krish ranghani        "
+// console.log(txt);
+// console.log(txt.trimStart());     // remove space from start
+// console.log("Lenth is :- "+(txt.trimStart()).length);
+
+
+// 14.  -> trimEnd() 
+// let txt="      krish ranghani        "
+// console.log(txt);
+// console.log(txt.trimEnd());     // remove space from end
+// console.log("Lenth is :- "+(txt.trimEnd()).length);
+
+
+
+// 15. -> pad start
+// let txt="10473";
+// console.log(txt.padStart(10,"#"));    // #####10473
+
+
+// 16. -> pad End
+// let txt="81609";
+// console.log(txt.padEnd(10,"#"));    // 81609#####
+
+
+// 17. -> split()
+// let data="Java$ sc$ript is the$ wolrd`s most $popular$ progra$mming lan$uage.$world";
+// console.log(data.split("$"));  // where $   change to string
