@@ -45,6 +45,14 @@
 
 //###==>parseFloat<==###
 
+// console.log(parseFloat("10"));
+// console.log(parseFloat("10.33"));
+// console.log(parseFloat("10 20 30"));
+// console.log(parseFloat("10 years"));
+// console.log(parseFloat("years 10"));
+
+//###==>parseInt<==###
+
 // console.log(parseInt("-10"));
 // console.log(parseInt("-10.33"));
 // console.log(parseInt("10"));
@@ -52,14 +60,6 @@
 // console.log(parseInt("10 20 30"));
 // console.log(parseInt("10 years"));
 // console.log(parseInt("years 10"));
-
-//###==>parseFloat<==###
-
-// console.log(parseFloat("10"));
-// console.log(parseFloat("10.33"));
-// console.log(parseFloat("10 20 30"));
-// console.log(parseFloat("10 years"));
-// console.log(parseFloat("years 10"));
 
 //###==> isInteger <==###
 
