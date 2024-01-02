@@ -46,87 +46,95 @@
 // alfa.sort();
 // console.log(alfa);
 
-// 9.> Array Reverce  ==> shorting Element
-// const alfa = ['c','d','e','a','b'];
-// alfa.sort();
-// console.log(alfa.reverse());
-
-// 12.> Numeric Sort:-
+// 9.> Numeric Sort:-
 // const points = [40, 100, 1, 5, 25, 10];
 // points.sort(function(a, b){return a - b});
 // console.log(points);
 
+// 10.> Array Reverce  ==> shorting Element
+// const alfa = ['c','d','e','a','b'];
+// alfa.sort();
+// console.log(alfa.reverse());
+
 // let data = [11,22,33,44,55,66,77,88,99];
 
-// 13.>  Array Max ():-  ==> finde the array in Highet(Big)Number.
+// 11.>  Array Max ():-  ==> finde the array in Highet(Big)Number.
 // MaxNum = (a) =>{
 // return Math.max.apply(null,a);
 // };
 // console.log(MaxNum(data))
 
-// 14.>  Array Min ():-  ==> finde the array in lowest (Small) Number.
+// 12.>  Array Min ():-  ==> finde the array in lowest (Small) Number.
 // MinNum = (a) =>{
 // return Math.min.apply(null,a)
 // };
 // console.log(MinNum(data))
 
-// 15.> Array forEach ():- ==> 
+// 13.> Array forEach ():- ==> 
 // let a = "";
 // data.forEach((val, index)=>{
 // a = a +" " + val;
 // })
 // console.log(a);
 
-// 16.> Array Map ():-   ==>  5 * 2 =10
+// 14.> Array Map ():-   ==>  5 * 2 =10
 // let a = [];
 // a = data.map((val, index)=>{
 // return val - 5
 // })
 // console.log(a);
 
-// 17.> Array filter ():-
+// 15.> Array filter ():-
 // let a = [];
 //  a = data.filter((val, index)=>{ 
 // return val < 33;
 // })
 // console.log(a);
 
-// 18.> Array reduse ():-
+// 16.> Array reduse ():-
+
+// let abc;
+// abc = data.reduce((a,val, index)=>{
+// return a + val;
+//  })
+// console.log(abc);
+
+// 17.> Array reduseright ():-
 // let abc;
 // abc = data.reduceRight((a,val, index)=>{
 // return a + val;
 //  })
 // console.log(abc);
 
-// 20.> Array some():-
-//  let abc;
-//  abc = data.some((val, index)=>{
-//  return val < 25
-// })
-// console.log(abc);
-
-// 21.> Array every():-
+// 18.> Array every():-
 //  let abc;
 //  abc = data.every((val, index)=>{
 //  return val >= 25
 // })
 // console.log(abc);
 
-// 22.> Array find():-
+// 19.> Array some():-
+//  let abc;
+//  abc = data.some((val, index)=>{
+//  return val < 25
+// })
+// console.log(abc);
+
+// 20.> Array find():-
 //  let abc;
 //  abc = data.find((val, index)=>{
 //  return val >= 25
 // })
 // console.log(abc);
 
-// 23.> Array findIndex():-
+// 21.> Array findIndex():-
 // let abc;
 //  abc = data.findIndex((val, index)=>{
 //  return val >= 25
 // })
 // console.log(abc);
 
-// 24.> Array entries():-
+// 22.> Array entries():-
 // let abc;
 //  abc = data.entries();
 // console.log(abc.next().value);
@@ -139,11 +147,11 @@
 // console.log(abc.next().value);
 // console.log(abc.next().value);
 
-// 25.> Array includes():-
+// 23.> Array includes():-
 // let abc;
 // abc = data.includes(11); // is true
 // console.log(abc);
 
-// 26.> Array copyWithin():-
+// 24.> Array copyWithin():-
 // console.log(data.copyWithin(0,4,7));
 // console.log(data.copyWithin(1,5));
